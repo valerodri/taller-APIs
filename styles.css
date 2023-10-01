@@ -1,0 +1,69 @@
+html {
+    background-image: url(dictionary.jpeg);
+    background-size: cover;
+    padding: 20%;
+    padding-top: 1%;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(41, 2, 8);
+}
+
+h1 {
+    letter-spacing: 7px;
+    font-size: 110px;
+    backdrop-filter: blur(15px);
+    margin: 0;
+}
+
+
+#input, #inicio {
+    padding: 20px;
+    font-size: large;
+    font-weight: bold;
+    backdrop-filter: blur(15px);
+    border-top-style: double;
+    border-color: rgb(41, 2, 8);
+    margin: 0;
+}
+
+
+form:hover {
+        backdrop-filter: blur(24px);
+
+}
+
+#word_information {
+    margin-top: 30px;
+}
+p {
+    margin: 0px;
+}
+
+#info{
+    backdrop-filter: blur(20px);
+    border-style: double;
+    border-width: 2px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+}
+
+#word{
+    font-size:100px;
+}
+#phonetics {
+    font-size: 40px;
+    font-style: italic;
+}
+#pos {
+    font-weight: bold;
+    font-size: 40px;
+    font-style: italic;
+}
+
+
+#def {
+    font-size: 50px;
+    margin: 10px;
+
+}
